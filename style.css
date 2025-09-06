@@ -1,0 +1,126 @@
+html, body{
+    margin: 0;
+    border: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(240, 239, 239, 0.525);
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.back-img{
+    height: 100vh;
+    width: 35vw;
+    overflow: hidden;
+}
+.back-img p{
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    padding: 2px 5px;
+    margin: 0;
+}
+.back-img p a{
+    color: white;
+}
+.back-img img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+}
+.form{
+    height: 100vh;
+    width: 65vw;
+}
+.logo{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 150px;
+    background-color: rgba(58, 58, 58, 0.668);
+    width: 35vw;
+}
+.logo img{
+    max-width: 100px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo h1{
+    font-family: 'Norse', sans-serif;
+    color: white;
+    font-size: 80px;
+    margin: 0;
+}
+.form{
+    box-sizing: border-box;
+    padding-top: 65px;
+    padding-left: 40px;
+}
+.form h3{
+    font-weight: 500;
+    padding-right: 50px;
+}
+
+.forms{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 50px;
+    background-color: white;
+    box-shadow: #c7c7c7 0 4px 5px 0;
+    border-radius: 20px 0 0 20px;
+}
+label{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+}
+input{
+    width: 75%;
+    min-height: 30px;
+    border: 1px solid #c7c7c7 ;
+    border-radius: 5px;
+}
+input:valid{
+    border: 2px solid rgb(0, 152, 0);
+}
+input:user-invalid {
+  border: 2px solid rgb(255, 95, 95);
+}
+input:focus{
+    outline: none;
+    border: 2px solid #4c49ffcf;
+    box-shadow: 0 1px 3px 1px #bcbcbccf;
+}
+button{
+    margin-top: 50px;
+    padding: 10px 50px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: #596D48;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #7f916f;
+}
+#other{
+    margin-top: 30px;
+    font-size: 16px;
+}
+#other a{
+    text-decoration: none;
+    color: #596D48;
+}
