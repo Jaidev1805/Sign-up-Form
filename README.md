@@ -1,4 +1,4 @@
-#Sign-up Form
+Sign-up Form
 
 A simple sign-up form project built as part of The Odin Project curriculum.
 This project focuses on practicing HTML forms, form validation, and CSS styling to create a user-friendly registration page.
@@ -36,5 +36,6 @@ Open the project folder
 cd sign-up-form  
 
 Open index.html in your browser
+
 
 
